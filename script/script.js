@@ -22,6 +22,8 @@ const andrea = new User("Andrea", "Verdi", 33, "Milano");
 
 console.log(mario.ageCompared(andrea));
 
+// SECONDO ESERCIZIO
+
 const form = document.getElementsByTagName("form")[0];
 const list = document.getElementById("list");
 
