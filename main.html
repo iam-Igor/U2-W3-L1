@@ -4,9 +4,26 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JS 2</title>
+    <style>
+      form {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
   </head>
   <body>
-    <h1>Apri la console</h1>
+    <div class="container">
+      <form>
+        <input type="text" id="name" placeholder="Pet Name" />
+        <input type="text" id="owner" placeholder="Pet Owner Name" />
+        <input type="text" id="species" placeholder="Pet species" />
+        <input type="text" id="breed" placeholder="Pet breed" />
+        <button type="submit">Submit</button>
+      </form>
+      <h3>Lista degli animali:</h3>
+      <ul id="list"></ul>
+    </div>
     <script src="script/script.js"></script>
   </body>
 </html>
